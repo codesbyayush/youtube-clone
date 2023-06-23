@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 import { Link } from 'react-router-dom'
 import {useNavigate} from 'react-router-dom'
@@ -15,7 +15,7 @@ export default function VedioCard({ vedio }) {
 
   return (
     <div className='flex-col flex ' onClick={ handleclick }>
-        <div className='rounded-2xl overflow-hidden'>
+        <div className='rounded-2xl overflow-hidden border-4 border-black'>
 
             <img src={vedio.snippet.thumbnails.medium.url} alt="" className=''/>
         </div>
